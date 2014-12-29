@@ -1,0 +1,31 @@
+.picasa-thumbs {
+  /*height: auto;
+  overflow: auto;
+  white-space: nowrap;*/
+  text-align: center;
+}
+
+.thumb-container {
+  width: 916px;
+  margin: 0 auto;
+}
+.picasa-thumbs ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+  display: inline;
+  /*white-space: nowrap;*/
+}
+
+.picasa-thumbs ul li {
+  display: inline; 
+}
+
+.picasa-photo img {
+  display:block;
+  max-width: 100%;
+  max-height: 100%;
+  margin-left:auto;
+  margin-right:auto;
+}
