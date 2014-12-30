@@ -1,12 +1,12 @@
 {
   "name": "angular-google-picasa-gallery",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
     "angular": "*"
   },
   "main": [
-    "angular-google-picasa-gallery.js",
-    "angular-google-picasa-gallery.css"
+    "angular-picasa-gallery.js",
+    "angular-picasa-gallery.css"
   ],
   "ignore":[
     "index.html",
