@@ -1,6 +1,6 @@
 {
-  "name": "angular-google-picasa-gallery",
-  "version": "0.0.3",
+  "name": "angular-picasa-album",
+  "version": "0.0.4",
   "dependencies": {
     "angular": "*"
   },
@@ -8,7 +8,7 @@
     "angular-picasa-gallery.js",
     "angular-picasa-gallery.css"
   ],
-  "ignore":[
+  "ignore": [
     "index.html",
     "README.md"
   ]
