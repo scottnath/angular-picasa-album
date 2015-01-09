@@ -27,6 +27,18 @@ angular.module('angularApp', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize',
 <picasa user="106063255260898090789" albumid="6075652748550751457" img-width="916"></picasa>
 ```
 
+### Adding the scroll buttons
+
+There is a controller in Angular Picasa Album which allows you to add a couple buttons to move forward or back between the photos
+
+```
+<div ng-controller="slideshowController">
+	<button ng-click="next()">NEXT</button>
+	<button ng-click="previous()">PREV</button>
+	<picasa user="106063255260898090789" albumid="6075652748550751457" img-width="916"></picasa>
+</div>
+```
+
 #### Variables
 
 The `user` attribute is the numerical id of a Picasa/Google Plus user
